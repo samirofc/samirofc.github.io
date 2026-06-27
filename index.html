@@ -7,26 +7,16 @@
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-@keyframes bgMove {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }
 <style>
 body{
-margin:0;
-font-family:Arial,sans-serif;
-background:background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #6a11cb);
-background-size: 400% 400%;
-animation: bgMove 12s ease infinite;;
-color:white;
-text-align:center;
+    margin:0;
+    font-family:Arial,sans-serif;
+    background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #6a11cb);
+    background-size: 400% 400%;
+    animation: bgMove 12s ease infinite;
+    color:white;
+    text-align:center;
 }
 
 .container{
@@ -87,13 +77,11 @@ box-shadow:0 0 20px #8a00ff;
     animation: glow 2s infinite alternate;
 }
 
-@keyframes glow{
-    from{
-        box-shadow: 0 0 20px #a100ff;
-    }
-    to{
-        box-shadow: 0 0 45px #ff00ff;
-    }
+@keyframes bgMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+
 }
 </style>
 </head>
