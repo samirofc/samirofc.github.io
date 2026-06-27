@@ -75,11 +75,14 @@ box-shadow:0 0 20px #8a00ff;
     animation: glow 2s infinite alternate;
 }
 
-@keyframes bgMove 
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-
+@keyframes glow{
+    from{
+        box-shadow: 0 0 20px #a100ff;
+    }
+    to{
+        box-shadow: 0 0 45px #ff00ff;
+    }
+}
 
 </style>
 </head>
